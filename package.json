@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.16.0",
+    "@nuxtjs/supabase": "^1.2.2",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "chart.js": "^4.4.3",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "glob": "^9.0.0",
+    "nuxt": "^3.12.1",
+    "vite": "^3.2.0",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.3.0",
+    "zid": "^0.4.0",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cypress": "^10.3.1",
+    "cypress-vite-preprocessor": "^1.0.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
+  }
+}
